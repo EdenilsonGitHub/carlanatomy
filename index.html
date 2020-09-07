@@ -1,26 +1,273 @@
 <html>
-	<head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-lg">
-			<ul class="navbar-nav">
-				<li class="active">
-					<a href="#" class="nav-link">Home</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Product</a>
-				</li>
-				
-				<li class="nav-item">
-					<a href="#" class="nav-link">Contact Us</a>
-				</li>
-			</ul>
-		</nav>
-	</body>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		id="bootstrap-css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+		media="screen">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<h3 class="my-heading ">Porti<span class="bg-main">fólio</span></h3>
+			</a>
+			
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="fa fa-bars mfa-white"></span>
+			</button>
+
+			<div id="main">
+				<a href="javascript:void(0)" class="openNav"><span class="fa fa-bars" onclick="openNav()"></span></a>
+			</div>
+
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<ul class="mob-ul">
+					<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Groups</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Music</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Marketplace</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Featured Artists</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<header class="masthead text-white ">
+		<div class="overlay"></div>
+		<div class="container slider-top-text">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h3 class="my-heading">Bem<span class="bg-main"> vindos</span></h3>
+					<p class="myp-slider text-center">ao meu mundo</p>
+				</div>
+				<div class="col-md-12 text-center mt-5">
+					<div class="scroll-down">
+						<a class="btn btn-default btn-scroll floating-arrow" href="#gobottom" id="bottom"><i
+								class="fa fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="testimonials" id="gobottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
+					<div class="big-img">
+						<img src="./me.jpg"
+							class="img-fluid">
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="inner-section wow fadeInUp">
+						<h3>Carla <span class="bg-main">Taís dos Santos</span></h3>
+						<br>
+						<p class="text-justify">Tenho 22 anos, sou apaixonada por enfermagem, café e netflix. Comecei a cursar no ano de 2019 e desde então não me vejo em outra profissão.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="testimonials mybg-events">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12 wow fadeInUp">
+					<h3 class="title-heading text-center">O QUE É ANATOMIA</h3>
+					<p class="myp text-center">A Anatomia Humana é a ciência que estuda as estruturas corporais, como elas se formam e como funcionam em conjunto no corpo(sistemas).</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="content">
+					<div class="grid">
+						<figure class="effect-ravi">
+							<img src="./esqueleto.jpg" alt="img12" style="background-size: cover;" />
+							<figcaption>
+								<div style="padding-top: 0px!important">
+									<h2>Osteologia</h2>
+									<p style="width: 220px;text-align: justify">A Osteologia é o ramo da anatomia que estuda a estrutura, forma e desenvolvimento dos Ossos e das articulações.</p>
+								</div>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
+						<figure class="effect-ravi">
+							<img src="./sistemarespiratoriogeral.jpg" alt="img1" />
+							<figcaption>
+								<div style="padding-top: 0px!important">
+									<h2>Sistema respiratório</h2>
+									<p style="width: 220px;text-align: justify;color: black">O Sistema Respiratório é um conjunto de órgãos responsáveis pelas trocas gasosas.</p>
+								</div>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="grid">
+						<figure class="effect-ravi">
+							<img src="./neuroanatomy.png" alt="img12" />
+							<figcaption>
+								<div style="padding-top: 0px!important">
+									<h2>Sistema nervoso</h2>
+									<p style="width: 250px;text-align: justify">O Sistema Nervoso é a parte do organismo que transmite sinais entre as suas diferentes partes e coordena as suas ações voluntárias e involuntárias.</p>
+								</div>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
+						<figure class="effect-ravi">
+							<img src="./sistemacardiovascular.jpg" alt="img1" />
+							<figcaption>
+								<div style="padding-top: 0px!important">
+									<h2>Sistema cardiovascular</h2>
+									<p style="width: 300px;text-align: justify">O Sistema Cardiovascular é um conjunto de órgãos responsáveis pela distribuição de nutrientes para as células e coleta de suas excretas metabólicas para serem eliminadas por órgãos excretores.</p>
+								</div>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="grid">
+						<figure class="effect-ravi">
+							<img src="./sistemamuscular.jpg" alt="img12" />
+							<figcaption>
+								<div style="padding-top: 0px!important">
+									<h2>Sistema muscular</h2>
+									<p style="width: 250px;text-align: justify">O Sistema Muscular é o conjunto de músculos que nos permite movimentação do esqueleto, produção de calor, postura e sustentação do corpo.</p>
+								</div>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
+						<figure class="effect-ravi">
+							<img src="./sistemadigestorio.jpg" alt="img1" />
+							<figcaption>
+								<div style="padding-top: 0px!important">
+									<h2>Sistema digestório</h2>
+									<p style="width: 220px;text-align: justify">O Sistema Digestório é composto por um conjunto de órgãos que tem por função a realização da digestão.</p>
+								</div>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="grid">
+						<figure class="effect-ravi">
+							<img src="./sistemaurinario.jpg" alt="img12" />
+							<figcaption>
+								<div style="padding-top: 0px!important">
+									<h2>Sistema genitourinário</h2>
+									<p style="width: 240px;text-align: justify">O Sistema Genitourinário é responsável pela produção e eliminação da urina, possui a função de filtrar a impuresa do sangue que circula no organismo.</p>
+								</div>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer bg-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center text-lg-left my-auto  wow zoomIn" style="text-align: center;">
+					<p class="text-muted small mb-4 mb-lg-0" style="text-align: center;">Desenvolvido por Carla Taís dos Santos 2020.</p>
+					<p class="text-muted small mb-4 mb-lg-0" style="text-align: center;">© Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script>
+		$(window).scroll(function () {
+
+
+			var topWindow = $(window).scrollTop();
+			var topWindow = topWindow * 1.5;
+			var windowHeight = $(window).height();
+			var position = topWindow / windowHeight;
+			position = 1 - position;
+
+			$('#bottom').css('opacity', position);
+
+		});
+
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("main").style.display = "0";
+			document.body.style.backgroundColor = "white";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("main").style.marginRight = "0";
+			document.body.style.backgroundColor = "white";
+		}
+
+
+		$(window).on("scroll", function () {
+			if ($(this).scrollTop() > 10) {
+				$("nav.navbar").addClass("mybg-dark");
+				$("nav.navbar").addClass("navbar-shrink");
+
+
+			} else {
+				$("nav.navbar").removeClass("mybg-dark");
+				$("nav.navbar").removeClass("navbar-shrink");
+
+			}
+
+
+
+		});
+
+		$(function () {
+			$('#bottom').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 500);
+						return false;
+					}
+				}
+			});
+		});
+
+
+	</script>
+	<script>
+		$(document).ready(function () {
+			$(".fancybox").fancybox({
+				openEffect: "none",
+				closeEffect: "none"
+			});
+		});
+	</script>
+</body>
+
 </html>
