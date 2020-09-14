@@ -16,7 +16,7 @@ header.masthead {
     position: relative;
     height: 100vh;
     background-color: #343a40;
-    background: url('./fundo.jpg') no-repeat center center;
+    background: url('./img/fundo.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -206,7 +206,8 @@ hr.my-border {
 }
 
 .mybg-events {
-    background: url('./fundo_baixo.jpg') no-repeat center center fixed;
+    background: url('./img/fundo_baixo.png') no-repeat center center fixed;
+    /* background-color: black; */
     background-size: cover;
 }
 
